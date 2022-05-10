@@ -1,0 +1,35 @@
+@media (max-width: 400px) {
+  body > header {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.65) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(4.4px) !important;
+    -webkit-backdrop-filter: blur(4.4px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.62) !important;
+  }
+  .second-img {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .first-img {
+    display: none;
+  }
+
+  body > header > div > div > div > nav > a.logo-img.d-inline.logo{
+     margin-left: 0 !important; 
+     padding: 0;
+  }
+
+  .logo-img {
+    width: 62% !important;
+    padding: 25px !important;
+  }
+
+  body > header > div > div > div > nav > a.d-inline.logo {
+    width: 50%;
+  }
+  body > header > div > div > div > nav > a.menu-trigger > span::before::after {
+    color: white !important;
+  }
+}
