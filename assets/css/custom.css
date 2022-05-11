@@ -32,4 +32,21 @@
   body > header > div > div > div > nav > a.menu-trigger > span::before::after {
     color: white !important;
   }
+body > header > div > div > div > nav > ul > li.scroll-to-section > a{ text-align: center !important;}
+
+}
+
+
+
+
+/* .bg-responsive{
+  background-size: cover !important;
+  background-position: center !important;
+  
+} */
+
+#top{
+  background-image: url('../images/wiut.JPG');
+  background-size: cover;
+  background-position: centerx  ;
 }

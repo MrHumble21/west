@@ -1455,7 +1455,7 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/WIUT9989.JPG);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1491,7 +1491,8 @@ upcoming meetings page
 */
 
 section.meetings-page {
-  background-image: url(../images/meetings-page-bg.jpg);
+  background-image: url(../images/WIUT9989.JPG);
+filter: brightness(0.5);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1499,6 +1500,8 @@ section.meetings-page {
   padding-top: 140px;
   padding-bottom: 0px;
 }
+
+
 
 section.meetings-page .filters {
   text-align: center;
