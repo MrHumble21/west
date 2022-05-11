@@ -1539,8 +1539,9 @@ upcoming meetings page
 */
 
 section.meetings-page {
-    background-image: url(../images/WIUT9989.JPG);
+    /*background-image: url(../images/WIUT9989.JPG);*/
     /*filter: brightness(0.5);*/
+    background-color: #1A374D;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
