@@ -48,3 +48,7 @@
   background-size: cover;
   background-position: centerx;
 }
+
+body > header > div > div > div > nav > ul > li > a{
+  color: #fff !important;
+}
