@@ -1,11 +1,10 @@
 @media (max-width: 450px) {
   body > header {
-    /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.65) !important;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
-    backdrop-filter: blur(4.4px) !important;
-    -webkit-backdrop-filter: blur(4.4px) !important;
-    border: 1px solid rgba(255, 255, 255, 0.62) !important;
+    background: rgba(255, 255, 255, 0) !important; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important; 
+    backdrop-filter: blur(10.7px) !important; 
+    -webkit-backdrop-filter: blur(10.7px) !important; 
+    border: 1px solid rgba(255, 255, 255, 0.3) !important; 
   }
   .second-img {
     display: block !important;
@@ -16,9 +15,9 @@
     display: none;
   }
 
-  body > header > div > div > div > nav > a.logo-img.d-inline.logo{
-     margin-left: 0 !important; 
-     padding: 0;
+  body > header > div > div > div > nav > a.logo-img.d-inline.logo {
+    margin-left: 0 !important;
+    padding: 0;
   }
 
   .logo-img {
@@ -32,12 +31,10 @@
   body > header > div > div > div > nav > a.menu-trigger > span::before::after {
     color: white !important;
   }
-body > header > div > div > div > nav > ul > li.scroll-to-section > a{ text-align: center !important;}
-
+  body > header > div > div > div > nav > ul > li.scroll-to-section > a {
+    text-align: center !important;
+  }
 }
-
-
-
 
 /* .bg-responsive{
   background-size: cover !important;
@@ -45,8 +42,8 @@ body > header > div > div > div > nav > ul > li.scroll-to-section > a{ text-alig
   
 } */
 
-#top{
-  background-image: url('../images/wiut.JPG');
+#top {
+  background-image: url("../images/wiut.JPG");
   background-size: cover;
-  background-position: centerx  ;
+  background-position: centerx;
 }
