@@ -46,9 +46,11 @@
 #top {
   background-image: url("../images/wiut.JPG");
   background-size: cover;
-  background-position: centerx;
+  background-position: center;
 }
 
 body > header > div > div > div > nav > ul > li > a{
   color: #fff !important;
 }
+
+

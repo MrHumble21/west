@@ -995,10 +995,13 @@ section.upcoming-meetings .categories .main-button-red a {
     border-top-left-radius: 20px;
 }
 
-.meeting-item .thumb .price {
-    position: absolute;
-    left: 20px;
-    top: 20px;
+/*.meeting-item .thumb .price {*/
+/*    position: absolute;*/
+/*    !*left: 20px;*!*/
+/*    !*top: 20px;*!*/
+/*}*/
+#meetings > div.container-fluid.p-3 > div > div.col-sm-8 > div > div:nth-child(1) > div > div.thumb > div.price > span{
+
 }
 
 .meeting-item .thumb .price span {
@@ -1628,8 +1631,8 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .thumb .price {
     position: absolute;
-    left: 20px;
-    top: 20px;
+    left: 85%;
+    bottom: 100% !important;
 }
 
 .meeting-single-item .thumb .price span {
@@ -1643,7 +1646,7 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .down-content {
     background-color: #fff;
-    padding: 40px;
+    padding: 60px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -1657,7 +1660,7 @@ section.meetings-page .pagination ul li a:hover {
     padding: 15px 0px;
     border-radius: 10px;
     right: 20px;
-    top: 20px;
+    top: 30px;
 }
 
 .meeting-single-item .thumb .date h6 {
